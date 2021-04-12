@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9BEF92C02212C2D10027AF0D /* RNCPushNotificationIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B97F674220DED9C00B61540 /* RNCPushNotificationIOS.m */; };
+		BA89F0A92623ED0A00D7CD4D /* RCTConvert+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89F0A72623ED0A00D7CD4D /* RCTConvert+Notification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		9B97F666220DEAF700B61540 /* RNCPushNotificationIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCPushNotificationIOS.h; sourceTree = "<group>"; };
 		9B97F66B220DEC6000B61540 /* libRNCPushNotificationIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCPushNotificationIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B97F674220DED9C00B61540 /* RNCPushNotificationIOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCPushNotificationIOS.m; sourceTree = "<group>"; };
+		BA89F0A72623ED0A00D7CD4D /* RCTConvert+Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+Notification.m"; sourceTree = "<group>"; };
+		BA89F0A82623ED0A00D7CD4D /* RCTConvert+Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+Notification.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +52,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				BA89F0A82623ED0A00D7CD4D /* RCTConvert+Notification.h */,
+				BA89F0A72623ED0A00D7CD4D /* RCTConvert+Notification.m */,
 				9B97F674220DED9C00B61540 /* RNCPushNotificationIOS.m */,
 				9B97F666220DEAF700B61540 /* RNCPushNotificationIOS.h */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -107,6 +112,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -125,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA89F0A92623ED0A00D7CD4D /* RCTConvert+Notification.m in Sources */,
 				9BEF92C02212C2D10027AF0D /* RNCPushNotificationIOS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
